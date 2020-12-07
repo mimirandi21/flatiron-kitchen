@@ -1,0 +1,6 @@
+<%= recipe.name %>
+<% if !recipe.ingredients.empty? %>
+    <% recipe.ingredients.each do |i| %>
+        <%= i.name %>
+    <% end %>
+<% end %>
